@@ -27,16 +27,16 @@ client.on("message", async message => {
     m.edit(`Pong! A Latência é ${m.createdTimestamp - message.createdTimestamp}ms. A Latencia da API é ${Math.round(client.ping)}ms`);
   }
   
-  if(comando === "caio") {
-    const x = await message.channel.send("Caio apenas");
+  if(comando === "sim") {
+    const x = await message.channel.send("nao");
   }
   
   if(comando === "amongas") {
     const x = await message.channel.send("SUS");
   }
   
-  if(comando === "onde é hoje") {
-    const x = await message.channel.send("na djalma, dia 13");
+  if(comando === "teste") {
+    const x = await message.channel.send("testado");
   }
 
   if(comando === "rodaroda") {
